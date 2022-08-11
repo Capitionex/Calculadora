@@ -6,8 +6,8 @@ Please type in the math operation you would like to complete:
 / for division
 ''')
 
-number_1 = int(input('Enter your first number: '))
-number_2 = int(input('Enter your second number: '))
+number_1 = int(input('Digite o primeiro número: '))
+number_2 = int(input('Digite o segundo número: '))
 
 if operation == '+':
     print('{} + {} = '.format(number_1, number_2))
